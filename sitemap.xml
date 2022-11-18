@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/manifest.json</loc>
+    <loc>http://omygan.github.io/manifest.json</loc>
     
     <lastmod>2022-11-18</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/posts/d95d7e09.html</loc>
+    <loc>http://omygan.github.io/posts/d95d7e09.html</loc>
     
     <lastmod>2022-11-18</lastmod>
     
@@ -21,7 +21,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>http://omygan.github.io/</loc>
     <lastmod>2022-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -29,7 +29,7 @@
 
   
   <url>
-    <loc>http://example.com/tags/Hexo/</loc>
+    <loc>http://omygan.github.io/tags/Hexo/</loc>
     <lastmod>2022-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

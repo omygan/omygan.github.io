@@ -3,11 +3,11 @@
   <title>欸嘿/Blog</title>
   
   <subtitle>Fighting !!!</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://omygan.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://omygan.github.io/"/>
   <updated>2022-11-18T12:41:00.463Z</updated>
-  <id>http://example.com/</id>
+  <id>http://omygan.github.io/</id>
   
   <author>
     <name>欸嘿</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>我的第一篇博客</title>
-    <link href="http://example.com/posts/d95d7e09.html"/>
-    <id>http://example.com/posts/d95d7e09.html</id>
+    <link href="http://omygan.github.io/posts/d95d7e09.html"/>
+    <id>http://omygan.github.io/posts/d95d7e09.html</id>
     <published>2022-11-18T05:40:36.000Z</published>
     <updated>2022-11-18T12:41:00.463Z</updated>
     
@@ -34,7 +34,7 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="Hexo" scheme="http://omygan.github.io/tags/Hexo/"/>
     
   </entry>
   
