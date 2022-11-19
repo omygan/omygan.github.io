@@ -6,7 +6,7 @@
   <link href="http://omygan.github.io/atom.xml" rel="self"/>
   
   <link href="http://omygan.github.io/"/>
-  <updated>2022-11-19T05:47:35.098Z</updated>
+  <updated>2022-11-19T09:54:54.649Z</updated>
   <id>http://omygan.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>React</title>
+    <link href="http://omygan.github.io/posts/d8a440d1.html"/>
+    <id>http://omygan.github.io/posts/d8a440d1.html</id>
+    <published>2022-11-19T09:48:53.000Z</published>
+    <updated>2022-11-19T09:54:54.649Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Vue</title>
+    <link href="http://omygan.github.io/posts/f8e09374.html"/>
+    <id>http://omygan.github.io/posts/f8e09374.html</id>
+    <published>2022-11-19T09:48:34.000Z</published>
+    <updated>2022-11-19T09:54:41.168Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>我的第一篇博客</title>

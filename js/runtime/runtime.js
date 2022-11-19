@@ -15,7 +15,7 @@ function createtime() {
     1 == String(l).length && (l = "0" + l);
     let g = "";
     (g =
-        r == 17
+        r > 18 && r <= 9
             ? `<img class='boardsign' src='../../img/欸嘿-上班摸鱼-brightgreen.svg' title='距离月入25k也就还差一个大佬带我~'><span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`
             : `<img class='boardsign' src='../../img/欸嘿-下班啦-brightgreen.svg' title='下班了就该开开心心的玩耍，嘿嘿~'><span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`),
         document.getElementById("workboard") &&
