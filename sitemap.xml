@@ -74,13 +74,6 @@
 
   
   <url>
-    <loc>http://omygan.github.io/tags/record/</loc>
-    <lastmod>2022-11-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://omygan.github.io/tags/react/</loc>
     <lastmod>2022-11-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -88,14 +81,7 @@
   </url>
   
   <url>
-    <loc>http://omygan.github.io/tags/freedom/</loc>
-    <lastmod>2022-11-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://omygan.github.io/tags/Hexo/</loc>
+    <loc>http://omygan.github.io/tags/record/</loc>
     <lastmod>2022-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -110,6 +96,20 @@
   
   <url>
     <loc>http://omygan.github.io/tags/vue/</loc>
+    <lastmod>2022-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://omygan.github.io/tags/Hexo/</loc>
+    <lastmod>2022-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://omygan.github.io/tags/freedom/</loc>
     <lastmod>2022-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
