@@ -6,7 +6,7 @@
   <link href="http://omygan.github.io/atom.xml" rel="self"/>
   
   <link href="http://omygan.github.io/"/>
-  <updated>2022-11-19T12:10:45.011Z</updated>
+  <updated>2022-11-19T16:02:13.079Z</updated>
   <id>http://omygan.github.io/</id>
   
   <author>
@@ -17,17 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JS</title>
+    <title>JavaScript</title>
     <link href="http://omygan.github.io/posts/b92db53e.html"/>
     <id>http://omygan.github.io/posts/b92db53e.html</id>
     <published>2022-11-19T12:09:36.000Z</published>
-    <updated>2022-11-19T12:10:45.011Z</updated>
+    <updated>2022-11-19T16:02:13.079Z</updated>
     
     
     
     
+    <category term="JavaScript" scheme="http://omygan.github.io/categories/JavaScript/"/>
     
-    <category term="js" scheme="http://omygan.github.io/tags/js/"/>
+    
+    <category term="javascript" scheme="http://omygan.github.io/tags/javascript/"/>
     
   </entry>
   
@@ -36,10 +38,12 @@
     <link href="http://omygan.github.io/posts/9c989aa7.html"/>
     <id>http://omygan.github.io/posts/9c989aa7.html</id>
     <published>2022-11-19T11:55:55.000Z</published>
-    <updated>2022-11-19T11:59:05.410Z</updated>
+    <updated>2022-11-19T16:02:51.041Z</updated>
     
     
     
+    
+    <category term="Record" scheme="http://omygan.github.io/categories/Record/"/>
     
     
     <category term="record" scheme="http://omygan.github.io/tags/record/"/>
@@ -51,10 +55,12 @@
     <link href="http://omygan.github.io/posts/3fcfc58a.html"/>
     <id>http://omygan.github.io/posts/3fcfc58a.html</id>
     <published>2022-11-19T11:25:32.000Z</published>
-    <updated>2022-11-19T12:19:25.276Z</updated>
+    <updated>2022-11-19T16:01:09.689Z</updated>
     
     
     
+    
+    <category term="freedom" scheme="http://omygan.github.io/categories/freedom/"/>
     
     
     <category term="freedom" scheme="http://omygan.github.io/tags/freedom/"/>
@@ -66,10 +72,12 @@
     <link href="http://omygan.github.io/posts/d8a440d1.html"/>
     <id>http://omygan.github.io/posts/d8a440d1.html</id>
     <published>2022-11-19T09:48:53.000Z</published>
-    <updated>2022-11-19T12:18:32.059Z</updated>
+    <updated>2022-11-19T16:02:38.553Z</updated>
     
     
     
+    
+    <category term="React" scheme="http://omygan.github.io/categories/React/"/>
     
     
     <category term="react" scheme="http://omygan.github.io/tags/react/"/>
@@ -81,10 +89,12 @@
     <link href="http://omygan.github.io/posts/f8e09374.html"/>
     <id>http://omygan.github.io/posts/f8e09374.html</id>
     <published>2022-11-19T09:48:34.000Z</published>
-    <updated>2022-11-19T12:18:14.274Z</updated>
+    <updated>2022-11-19T16:02:58.995Z</updated>
     
     
     
+    
+    <category term="Vue" scheme="http://omygan.github.io/categories/Vue/"/>
     
     
     <category term="vue" scheme="http://omygan.github.io/tags/vue/"/>
@@ -96,7 +106,7 @@
     <link href="http://omygan.github.io/posts/d95d7e09.html"/>
     <id>http://omygan.github.io/posts/d95d7e09.html</id>
     <published>2022-11-18T05:40:36.000Z</published>
-    <updated>2022-11-19T05:47:35.098Z</updated>
+    <updated>2022-11-19T16:01:34.042Z</updated>
     
     <content type="html"><![CDATA[<div class="tip "><p>小试牛刀</p></div><h3 id="Hexo简介"><a href="#Hexo简介" class="headerlink" title="Hexo简介"></a>Hexo简介</h3><p><a href="https://hexo.io/zh-cn/">Hexo快速、简洁且高效的博客框架</a></p><h4 id="1-创建一个简单的博客"><a href="#1-创建一个简单的博客" class="headerlink" title="1. 创建一个简单的博客:"></a>1. 创建一个简单的博客:</h4><ol><li>全局安装hexo</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure><ol><li>初始化一个blog文件夹</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure><ol><li>进入blog目录</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd blog</span><br></pre></td></tr></table></figure><ol><li>新建文章</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new xxx || hexo n xxx</span><br></pre></td></tr></table></figure><ol><li>执行命令</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g</span><br></pre></td></tr></table></figure><ol><li>在线预览</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server || hexo s</span><br></pre></td></tr></table></figure><ol><li>一键部署</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy || hexo d</span><br></pre></td></tr></table></figure><h4 id="2-如何部署到github"><a href="#2-如何部署到github" class="headerlink" title="2. 如何部署到github"></a>2. 如何部署到github</h4><h5 id="1-创建："><a href="#1-创建：" class="headerlink" title="1. 创建："></a>1. 创建：</h5><ul><li><p>新建一个名为你的用户名.github.io的仓库</p></li><li><p>比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库（必须是你的用户名，其它名称无效），将来你的网站访问地址就是 <a href="http://test.github.io">http://test.github.io</a> 了，是不是很方便？由此可见，每一个github账户最多只能创建一个这样可以直接使用域名访问的仓库。 </p></li></ul><h5 id="2-修改-config-yml的内容"><a href="#2-修改-config-yml的内容" class="headerlink" title="2. 修改_config.yml的内容 :"></a>2. 修改_config.yml的内容 :</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    type: git</span><br><span class="line">    repo: https://github.com/test/test.github.io.git</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure><blockquote><p>repo是仓库的地址</p></blockquote><h5 id="3-执行hexo-d-可能的报错以及解决办法"><a href="#3-执行hexo-d-可能的报错以及解决办法" class="headerlink" title="3. 执行hexo d 可能的报错以及解决办法"></a>3. 执行hexo d 可能的报错以及解决办法</h5><h6 id="在执行hexo-d-之前先运行如下代码"><a href="#在执行hexo-d-之前先运行如下代码" class="headerlink" title="在执行hexo d 之前先运行如下代码"></a>在执行hexo d 之前先运行如下代码</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;xxx&quot;</span><br><span class="line">git config --global user.name &quot;xxx&quot;</span><br></pre></td></tr></table></figure><h6 id="错误-OpenSSL-SSL-read-Connection-was-reset-errno-10054"><a href="#错误-OpenSSL-SSL-read-Connection-was-reset-errno-10054" class="headerlink" title="错误: OpenSSL SSL_read: Connection was reset, errno 10054"></a>错误: OpenSSL SSL_read: Connection was reset, errno 10054</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.sslVerify &quot;false&quot;</span><br></pre></td></tr></table></figure><h4 id="3-配置butterfly主题"><a href="#3-配置butterfly主题" class="headerlink" title="3. 配置butterfly主题"></a>3. 配置butterfly主题</h4><p>在blog目录下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure><p>升级</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">在主題目錄下，运行 git pull</span><br></pre></td></tr></table></figure><p>修改 Hexo 根目录下 _config.yml，把主题改为butterfly</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: butterfly</span><br></pre></td></tr></table></figure><p>如果你沒有 pug 以及 stylus 的渲染器，下载安装：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -109,6 +119,8 @@
       
     
     
+    
+    <category term="Hexo" scheme="http://omygan.github.io/categories/Hexo/"/>
     
     
     <category term="Hexo" scheme="http://omygan.github.io/tags/Hexo/"/>
