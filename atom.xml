@@ -6,7 +6,7 @@
   <link href="http://omygan.github.io/atom.xml" rel="self"/>
   
   <link href="http://omygan.github.io/"/>
-  <updated>2022-11-19T11:58:37.932Z</updated>
+  <updated>2022-11-19T12:10:02.370Z</updated>
   <id>http://omygan.github.io/</id>
   
   <author>
@@ -17,11 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JS</title>
+    <link href="http://omygan.github.io/posts/b92db53e.html"/>
+    <id>http://omygan.github.io/posts/b92db53e.html</id>
+    <published>2022-11-19T12:09:36.000Z</published>
+    <updated>2022-11-19T12:10:02.370Z</updated>
+    
+    
+    
+    
+    
+    <category term="js" scheme="http://omygan.github.io/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Record</title>
     <link href="http://omygan.github.io/posts/9c989aa7.html"/>
     <id>http://omygan.github.io/posts/9c989aa7.html</id>
     <published>2022-11-19T11:55:55.000Z</published>
-    <updated>2022-11-19T11:58:37.932Z</updated>
+    <updated>2022-11-19T11:59:05.410Z</updated>
     
     
     
