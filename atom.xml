@@ -6,7 +6,7 @@
   <link href="http://omygan.github.io/atom.xml" rel="self"/>
   
   <link href="http://omygan.github.io/"/>
-  <updated>2022-11-19T12:10:02.370Z</updated>
+  <updated>2022-11-19T12:10:45.011Z</updated>
   <id>http://omygan.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://omygan.github.io/posts/b92db53e.html"/>
     <id>http://omygan.github.io/posts/b92db53e.html</id>
     <published>2022-11-19T12:09:36.000Z</published>
-    <updated>2022-11-19T12:10:02.370Z</updated>
+    <updated>2022-11-19T12:10:45.011Z</updated>
     
     
     
@@ -51,13 +51,13 @@
     <link href="http://omygan.github.io/posts/3fcfc58a.html"/>
     <id>http://omygan.github.io/posts/3fcfc58a.html</id>
     <published>2022-11-19T11:25:32.000Z</published>
-    <updated>2022-11-19T11:33:08.913Z</updated>
+    <updated>2022-11-19T12:19:25.276Z</updated>
     
     
     
     
     
-    <category term="free" scheme="http://omygan.github.io/tags/free/"/>
+    <category term="freedom" scheme="http://omygan.github.io/tags/freedom/"/>
     
   </entry>
   
@@ -66,11 +66,13 @@
     <link href="http://omygan.github.io/posts/d8a440d1.html"/>
     <id>http://omygan.github.io/posts/d8a440d1.html</id>
     <published>2022-11-19T09:48:53.000Z</published>
-    <updated>2022-11-19T09:54:54.649Z</updated>
+    <updated>2022-11-19T12:18:32.059Z</updated>
     
     
     
     
+    
+    <category term="react" scheme="http://omygan.github.io/tags/react/"/>
     
   </entry>
   
@@ -79,11 +81,13 @@
     <link href="http://omygan.github.io/posts/f8e09374.html"/>
     <id>http://omygan.github.io/posts/f8e09374.html</id>
     <published>2022-11-19T09:48:34.000Z</published>
-    <updated>2022-11-19T09:54:41.168Z</updated>
+    <updated>2022-11-19T12:18:14.274Z</updated>
     
     
     
     
+    
+    <category term="vue" scheme="http://omygan.github.io/tags/vue/"/>
     
   </entry>
   
