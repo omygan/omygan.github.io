@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://omygan.github.io/categories/index.html</loc>
+    <loc>http://omygan.github.io/posts/f8e09374.html</loc>
     
-    <lastmod>2022-11-19</lastmod>
+    <lastmod>2022-11-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://omygan.github.io/posts/f8e09374.html</loc>
+    <loc>http://omygan.github.io/categories/index.html</loc>
     
     <lastmod>2022-11-19</lastmod>
     
@@ -101,13 +101,6 @@
 
   
   <url>
-    <loc>http://omygan.github.io/tags/Hexo/</loc>
-    <lastmod>2022-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://omygan.github.io/tags/freedom/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -122,14 +115,14 @@
   </url>
   
   <url>
-    <loc>http://omygan.github.io/tags/javascript/</loc>
+    <loc>http://omygan.github.io/tags/Hexo/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://omygan.github.io/tags/vue/</loc>
+    <loc>http://omygan.github.io/tags/javascript/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -142,14 +135,14 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>http://omygan.github.io/categories/Hexo/</loc>
+    <loc>http://omygan.github.io/tags/vue/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>http://omygan.github.io/categories/freedom/</loc>
@@ -166,6 +159,13 @@
   </url>
   
   <url>
+    <loc>http://omygan.github.io/categories/Hexo/</loc>
+    <lastmod>2022-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://omygan.github.io/categories/JavaScript/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -173,14 +173,14 @@
   </url>
   
   <url>
-    <loc>http://omygan.github.io/categories/Vue/</loc>
+    <loc>http://omygan.github.io/categories/React/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://omygan.github.io/categories/React/</loc>
+    <loc>http://omygan.github.io/categories/Vue/</loc>
     <lastmod>2022-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
