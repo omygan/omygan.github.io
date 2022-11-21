@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>React入门</title>
+      <link href="/posts/74c45c76.html"/>
+      <url>/posts/74c45c76.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> React </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> react </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue生命周期</title>
+      <link href="/posts/83f13096.html"/>
+      <url>/posts/83f13096.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Vue生命周期"><a href="#Vue生命周期" class="headerlink" title="Vue生命周期"></a>Vue生命周期</h1><p>vue 生命周期是指一个组件从创建、运行、销毁的整个过程。每个阶段对应着不同的生命周期钩子。</p><p>生命周期钩子也可理解为：Vue 在特定的时刻调用特定的函数。</p><p>除了图中 8 个钩子，还有 <code>nextTick</code>，<code>activated</code>，<code>deactivated</code></p><p>关于销毁过程：</p><ul><li>销毁后借助 Vue 开发者工具看不到任何信息。</li><li>销毁后自定义事件会失效，但原生 DOM 事件依然有效。</li><li>一般不在 <code>beforeDestroy</code> 操作数据，因为即便操作数据，也不会再触发更新流程</li></ul><p><img src="https://wyb1-1315133738.cos.ap-beijing.myqcloud.com/img/lifecycle2.6eba8c66.png" alt=""></p><p><img src="https://brucecai55520.gitee.io/bruceblog/assets/img/lifecycle.e6900649.png" alt=""></p><h2 id="相关代码"><a href="#相关代码" class="headerlink" title="相关代码"></a>相关代码</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">beforeCreate</span>(<span class="params"></span>) &#123;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;beforeCreate&#x27;</span>)</span><br><span class="line">&#125;,</span><br><span class="line"><span class="title function_">created</span>(<span class="params"></span>) &#123;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;created&#x27;</span>)</span><br><span class="line">&#125;,</span><br><span class="line"><span class="title function_">beforeMount</span>(<span class="params"></span>) &#123;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;beforeMount&#x27;</span>)</span><br><span class="line">&#125;,</span><br><span class="line"><span class="title function_">mounted</span>(<span class="params"></span>) &#123;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;mounted&#x27;</span>)</span><br><span class="line">&#125;,</span><br><span class="line"><span class="title function_">beforeUpdate</span>(<span class="params"></span>) &#123;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;beforeUpdate&#x27;</span>)</span><br><span class="line">&#125;,</span><br><span class="line"><span class="title function_">updated</span>(<span class="params"></span>) &#123;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;updated&#x27;</span>)</span><br><span class="line">&#125;,</span><br><span class="line"><span class="title function_">beforeDestroy</span>(<span class="params"></span>) &#123;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;beforeDestroy&#x27;</span>)</span><br><span class="line">&#125;,</span><br><span class="line"><span class="title function_">destroyed</span>(<span class="params"></span>) &#123;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;destroyed&#x27;</span>)</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure><h2 id="动态组件"><a href="#动态组件" class="headerlink" title="动态组件"></a>动态组件</h2><p>vue 提供了内置的 <code>&lt;component&gt;</code> 组件用于动态切换组件。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 通过 is 属性指定要渲染的组件，传递的是字符串 --&gt;</span><br><span class="line">&lt;component :is=&quot;comName&quot;&gt;&lt;/component&gt;</span><br><span class="line"></span><br><span class="line">&lt;button @click=&quot;comName = &#x27;Left&#x27;&quot;&gt;展示Left组件&lt;/button&gt;</span><br><span class="line">&lt;button @click=&quot;comName = &#x27;Right&#x27;&quot;&gt;展示Right组件&lt;/button&gt;</span><br></pre></td></tr></table></figure><h3 id="keep-alive"><a href="#keep-alive" class="headerlink" title="keep-alive"></a>keep-alive</h3><p>默认情况下，切换动态组件时无法保持组件的状态。此时可以使用 vue 内置的 <code>&lt;keep-alive&gt;</code> 组件保持动态组件的状态，对被包裹的组件进行状态缓存。</p><p>被 <code>&lt;keep-alive&gt;</code> 包裹的组件会<span class='p red'>多出两个生命周期函数：</span>当组件被激活时，触发 <code>activated</code> 钩子；当组件被缓存时，触发 <code>deactivated</code> 钩子。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;keep-alive&gt;</span><br><span class="line">  &lt;component :is=&quot;comName&quot;&gt;&lt;/component&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br></pre></td></tr></table></figure><p><code>&lt;keep-alive&gt;</code> 的 <code>include</code> 和 <code>exclude</code> 属性，分别用于指明哪些组件要缓存、哪些组件不要缓存。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;keep-alive include=&quot;Left, Right&quot;&gt;</span><br><span class="line">  &lt;component :is=&quot;comName&quot;&gt;&lt;/component&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br><span class="line"></span><br><span class="line">&lt;keep-alive :include=&quot;[&#x27;News&#x27;, &#x27;Message&#x27;]&quot;&gt;</span><br><span class="line">  &lt;router-view&gt;&lt;/router-view&gt;</span><br><span class="line">&lt;/keep-alive&gt;</span><br></pre></td></tr></table></figure><p>eg： 可以处理New组件缓存时,清除计时器功能, 提高性能</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">activated</span>(<span class="params"></span>) &#123;</span><br><span class="line"> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;News组件被激活了&#x27;</span>)</span><br><span class="line"> <span class="variable language_">this</span>.<span class="property">timer</span> = <span class="built_in">setInterval</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;@&#x27;</span>)</span><br><span class="line"> <span class="variable language_">this</span>.<span class="property">opacity</span> -= <span class="number">0.01</span></span><br><span class="line"> <span class="keyword">if</span>(<span class="variable language_">this</span>.<span class="property">opacity</span> &lt;= <span class="number">0</span>) <span class="variable language_">this</span>.<span class="property">opacity</span> = <span class="number">1</span></span><br><span class="line"> &#125;,<span class="number">16</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title function_">deactivated</span>(<span class="params"></span>) &#123;</span><br><span class="line"> <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;News组件失活了&#x27;</span>)</span><br><span class="line"> <span class="built_in">clearInterval</span>(<span class="variable language_">this</span>.<span class="property">timer</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="nextTick"><a href="#nextTick" class="headerlink" title="$nextTick"></a>$nextTick</h2><ul><li><p>语法：<code>this.$nextTick(回调函数)</code></p></li><li><p>作用：在下一次 DOM 更新结束后执行其指定的回调</p></li><li><p>什么时候用：当改变数据后，要基于更新后的 DOM 进行操作时，要在 <code>nextTick</code> 指定的回调函数中执行</p></li><li><p>组件的 <code>$nextTick(cb)</code> 方法，会把 cb 回调推迟到下一个 DOM 更新周期之后执行，即在 DOM 更新完成后再执行回调，从而保证 cb 回调可以获取最新的 DOM 元素</p><p>  使用$nextTick实现自动获取输入框焦点功能（优化性能）</p></li></ul><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//编辑</span></span><br><span class="line"><span class="title function_">handleEdit</span>(<span class="params">todo</span>)&#123;</span><br><span class="line"><span class="keyword">if</span>(todo.<span class="title function_">hasOwnProperty</span>(<span class="string">&#x27;isEdit&#x27;</span>))&#123;</span><br><span class="line">todo.<span class="property">isEdit</span> = <span class="literal">true</span></span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line"><span class="comment">// console.log(&#x27;@&#x27;)</span></span><br><span class="line"><span class="variable language_">this</span>.$set(todo,<span class="string">&#x27;isEdit&#x27;</span>,<span class="literal">true</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">this</span>.$nextTick(<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line"><span class="variable language_">this</span>.<span class="property">$refs</span>.<span class="property">inputTitle</span>.<span class="title function_">focus</span>()</span><br><span class="line">&#125;)</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure><div class="tip "><p>Vue处理函数为了防止重复解析模板会在所有代码执行完毕后再重新解析模板，如果代码块内部要操作dom节点，就可能会导致找不到节点，所需功能无法实现，如果在代码块中添加延时计时器，可以实现需求但应尽量避免这种操作，使用$nextTick()方法，vue检测到此方法后会在dom更新完毕后执行此方法的回调函数（cb）操作dom</p></div><p><a href="https://www.bilibili.com/video/BV1Zy4y1K7SH/?p=90&amp;spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;vd_source=32186d356bd8f698fa879ff1f5d9fcb9">$nextTick详细讲解</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Object对象</title>
       <link href="/posts/8892ccdc.html"/>
       <url>/posts/8892ccdc.html</url>
@@ -121,31 +171,6 @@
         <tags>
             
             <tag> freedom </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>React</title>
-      <link href="/posts/d8a440d1.html"/>
-      <url>/posts/d8a440d1.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> React </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> react </tag>
             
         </tags>
       
