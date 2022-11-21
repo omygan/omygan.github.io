@@ -128,13 +128,6 @@
 
   
   <url>
-    <loc>http://omygan.github.io/tags/record/</loc>
-    <lastmod>2022-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://omygan.github.io/tags/freedom/</loc>
     <lastmod>2022-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -150,6 +143,13 @@
   
   <url>
     <loc>http://omygan.github.io/tags/javascript/</loc>
+    <lastmod>2022-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://omygan.github.io/tags/record/</loc>
     <lastmod>2022-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -172,13 +172,6 @@
 
   
   <url>
-    <loc>http://omygan.github.io/categories/Record/</loc>
-    <lastmod>2022-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://omygan.github.io/categories/freedom/</loc>
     <lastmod>2022-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -194,6 +187,13 @@
   
   <url>
     <loc>http://omygan.github.io/categories/JavaScript/</loc>
+    <lastmod>2022-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://omygan.github.io/categories/Record/</loc>
     <lastmod>2022-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
