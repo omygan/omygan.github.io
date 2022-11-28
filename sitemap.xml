@@ -198,14 +198,14 @@
   </url>
   
   <url>
-    <loc>http://omygan.github.io/tags/javascript/</loc>
+    <loc>http://omygan.github.io/tags/react/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://omygan.github.io/tags/react/</loc>
+    <loc>http://omygan.github.io/tags/javascript/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -242,14 +242,14 @@
   </url>
   
   <url>
-    <loc>http://omygan.github.io/categories/JavaScript/</loc>
+    <loc>http://omygan.github.io/categories/React/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://omygan.github.io/categories/React/</loc>
+    <loc>http://omygan.github.io/categories/JavaScript/</loc>
     <lastmod>2022-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
