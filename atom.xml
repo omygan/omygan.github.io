@@ -6,7 +6,7 @@
   <link href="http://omygan.github.io/atom.xml" rel="self"/>
   
   <link href="http://omygan.github.io/"/>
-  <updated>2022-12-02T11:00:20.448Z</updated>
+  <updated>2022-12-02T11:01:00.165Z</updated>
   <id>http://omygan.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://omygan.github.io/posts/2ed57e0c.html"/>
     <id>http://omygan.github.io/posts/2ed57e0c.html</id>
     <published>2022-12-02T10:55:54.000Z</published>
-    <updated>2022-12-02T11:00:20.448Z</updated>
+    <updated>2022-12-02T11:01:00.165Z</updated>
     
     <content type="html"><![CDATA[<h1 id="什么是原型和原型链"><a href="#什么是原型和原型链" class="headerlink" title="什么是原型和原型链"></a>什么是原型和原型链</h1><h2 id="一、原型"><a href="#一、原型" class="headerlink" title="一、原型"></a>一、原型</h2><blockquote><p>所有<code>引用类型</code>都有一个<code>__proto__(隐式原型)</code>属性，属性值是一个普通的对象<br>        所有<code>函数</code>都有一个<code>prototype(原型)</code>属性，属性值是一个普通的对象<br>        所有<code>引用类型的__proto__</code>属性<code>指向</code>它<code>构造函数的prototype</code></p></blockquote><h2 id="一、原型链"><a href="#一、原型链" class="headerlink" title="一、原型链"></a>一、原型链</h2><blockquote><p>当访问一个对象的某个属性时，会先在这个对象本身属性上查找，如果没有找到，则会去它的<strong>proto</strong>隐式原型上查找，即它的构造函数的prototype，如果还没有找到就会再在构造函数的prototype的<strong>proto</strong>中查找，这样一层一层向上查找就会形成一个链式结构，我们称为原型链。</p></blockquote><p><a href="https://blog.csdn.net/xiaoermingn/article/details/80745117?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166987675416800180633029%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=166987675416800180633029&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-80745117-null-null.142^v67^control,201^v3^add_ask,213^v2^t3_control1&amp;utm_term=%E5%8E%9F%E5%9E%8B%E9%93%BE&amp;spm=1018.2226.3001.4187">原文链接</a></p>]]></content>
     
